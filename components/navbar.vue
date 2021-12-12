@@ -14,7 +14,7 @@
           <path d="M4 6h16M4 12h16M4 18h16"></path>
         </svg>
       </button>
-      <img src="/logo.png" alt="Logo" class="h-auto w-12"/>
+      <img src="logo.png" alt="Logo" class="h-auto w-12"/>
       <h1 class="text-xl font-semibold" v-text="name"></h1>
     </div>
     <div class="flex items-center">
@@ -86,7 +86,7 @@
       :class="drawer ? 'translate-x-0' : '-translate-x-full'">
       <span
         class="flex w-full items-center p-4 border-b">
-        <img src="/logo.png" alt="Logo" class="h-auto w-32 mx-auto"/>
+        <img src="logo.png" alt="Logo" class="h-auto w-32 mx-auto"/>
       </span>
       <NuxtLink exact to="/"
                 active-class="active-nav"

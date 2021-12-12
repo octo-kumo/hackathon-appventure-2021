@@ -54,7 +54,7 @@
              class="bg-blue-800 px-4 py-3 rounded-lg text-white text-xs tracking-wider font-semibold hover:bg-blue-600 hover:text-white">
             Learn More
           </a>
-          <img src="/assets/shield.png" alt="calendar" class="w-auto h-24 object-cover">
+          <img src="assets/shield.png" alt="calendar" class="w-auto h-24 object-cover">
         </div>
       </div>
     </div>
