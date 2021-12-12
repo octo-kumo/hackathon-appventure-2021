@@ -51,22 +51,22 @@ export default {
     types: [{
       id: "holistic",
       class: "bg-blue-500",
-      icon: "/assets/dish.png",
+      icon: "assets/dish.png",
       name: "Holistic"
     }, {
       id: "academic",
       class: "bg-green-500",
-      icon: "/assets/read.png",
+      icon: "assets/read.png",
       name: "Academic"
     }, {
       id: "fun",
       class: "bg-yellow-500",
-      icon: "/assets/gaming.png",
+      icon: "assets/gaming.png",
       name: "Fun & Games"
     }, {
       id: "arts",
       class: "bg-indigo-500",
-      icon: "/assets/paint-palette.png",
+      icon: "assets/paint-palette.png",
       name: "Music & Art"
     }]
   }),
