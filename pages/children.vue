@@ -61,12 +61,12 @@ export default {
       return this.$store.state.courses.find(c => c.name === name);
     },
     getEmote(motive) {
-      if (motive > 9) return "/assets/cb91d362742dcc886e4a4c3f981f3365.svg"
-      if (motive > 7) return "/assets/66f6c781fe86c346fbaf3390618668fc.svg"
-      if (motive > 6) return "/assets/da3651e59d6006dfa5fa07ec3102d1f3.svg"
-      if (motive > 4) return "/assets/fa9b378aed10bba1aea54ca34e76fe4b.svg"
-      if (motive > 2) return "/assets/fc5c8aa09047ef94d2c380891feff0f4.svg"
-      return "/assets/2ea1f6bba4448fa4e8d9504fe976095d.svg"
+      if (motive > 9) return "assets/cb91d362742dcc886e4a4c3f981f3365.svg"
+      if (motive > 7) return "assets/66f6c781fe86c346fbaf3390618668fc.svg"
+      if (motive > 6) return "assets/da3651e59d6006dfa5fa07ec3102d1f3.svg"
+      if (motive > 4) return "assets/fa9b378aed10bba1aea54ca34e76fe4b.svg"
+      if (motive > 2) return "assets/fc5c8aa09047ef94d2c380891feff0f4.svg"
+      return "assets/2ea1f6bba4448fa4e8d9504fe976095d.svg"
     },
     getColor(motive) {
       if (motive > 9) return "text-green-500"
