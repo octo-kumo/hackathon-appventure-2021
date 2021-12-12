@@ -10,7 +10,7 @@
            v-for="course in [...c.courses].sort((a, b) =>a.progress - b.progress)">
         <h1 v-text="course.name" class="font-semibold text-lg m-0.5 hover:text-indigo-700 hover:underline"
             :class="course.progress<1?'text-current':'text-gray-500'"></h1>
-        <h1 v-text="`CAP: ${course.cap}`" class="font-semibold text-md m-0.5"
+        <h1 v-if="course.cap" v-text="`CAP: ${course.cap}`" class="font-semibold text-md m-0.5"
             :class="course.progress<1?'text-current':'text-gray-500'"></h1>
         <p class="flex-grow m-0.5">
           <span v-if="opened[course.name]&&getCourse(course.name).description"
